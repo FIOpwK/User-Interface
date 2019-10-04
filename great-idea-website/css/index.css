@@ -67,7 +67,11 @@ h1, h2, h3, h4, h5 {
 
 .get-started {
 	border: 1px solid;
-	
+	height: 400px;
+	display: inline-git stblock;
+	width: 80%;
+
+
 }
 
 .logo {
@@ -81,12 +85,14 @@ h1 {
 	font-size: 55px;
 	display: block;
 	width: 23%;
+	padding: 10%;
 }
 
 button {
 	background-color: white;
 	padding: 1%;
 	width: 20%;
+	position: relative;
 }
 
 .top-image {
@@ -107,13 +113,13 @@ header {
 }
 
 nav {
-	display: inline-block;
+	
 	border: 2px solid red;
-	width: 73%;
-	text-align: center;
+	width: 69%;
+	margin: 1;
 	padding: 2%;
 	text-decoration: none;
-	word-spacing: 20px;
+	word-spacing: 70px;
 	text-align: center;
 }
 
