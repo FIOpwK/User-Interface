@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    width: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -65,21 +65,27 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
 .get-started {
 	border: 1px solid;
 	height: 400px;
-	display: inline-git stblock;
-	width: 80%;
-
+	display: inline-block;
+	width: 85%;
+	max-width: 800px;
+	position: relative;
 
 }
 
 .logo {
+	right: 10px;
+	top: 10px;
 	position: absolute;
-	right: 0px;
-	padding-right: 2.5%;
-	padding-top: 1%;
 }
+
 
 h1 {
 	font-size: 55px;
@@ -96,7 +102,6 @@ button {
 }
 
 .top-image {
-	padding: 10px;
 	float: right;
 }
 
@@ -112,15 +117,19 @@ header {
 	border: 1px solid;
 }
 
-nav {
+.navigation {
 	
 	border: 2px solid red;
-	width: 69%;
-	margin: 1;
+	width: 70%;
+	margin: 0;
 	padding: 2%;
 	text-decoration: none;
-	word-spacing: 70px;
+	word-spacing: 50px;
 	text-align: center;
+}
+
+nav a {
+	color: gray;
 }
 
 div {
@@ -131,11 +140,34 @@ div {
 .top-content {
 	border: 1px dashed;
 	padding: 2%;
+	display: inline-block;
 }
 
-.bottom-content {
+.top-content p {
+	width: 25%;
+}
+
+.bottom-content p {
 	display: inline-block;
 	border-left: 2px dashed;
 	border-right: 2px dashed;
 	padding: 2%;
+	width: 33%;
+}
+
+.bottom-content {
+	display: inline-block;
+}
+
+.footer-content {
+	border: 1px dashed red;
+}
+
+footer #address {
+	width: 25%;
+	padding: 2%;
+}
+
+#copy {
+	text-align: center;
 }
