@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0 auto;
-	width: 1000px;
+	max-width: 900px;
+	padding: 10px;
 }
 
 .get-started {
@@ -80,10 +81,15 @@ h1, h2, h3, h4, h5 {
 
 }
 
+#nav-bar {
+	position: relative;
+
+}
+
 .logo {
-	right: 10px;
-	top: 10px;
+	display: inline-block;
 	position: absolute;
+	right: 0px;
 }
 
 
@@ -130,6 +136,10 @@ header {
 
 nav a {
 	color: gray;
+}
+
+nav {
+	display: inline-block;
 }
 
 div {
