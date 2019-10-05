@@ -206,6 +206,10 @@ nav {
 	border-top: 1px solid;
 }
 
+p {
+	font-family: 'Indie Flower', cursive;
+}
+
 .top-content p {
 	margin-bottom: 25px;
 
@@ -274,5 +278,5 @@ nav {
 
 #copy {
 	text-align: center;
-	
+	font-family: 'Indie Flower', cursive;
 }
