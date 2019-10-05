@@ -255,15 +255,15 @@ nav {
 
 .contact {
 	
-	margin: 5% auto ;
+	margin: 1% auto ;
 	
 	display: inline-block;
 	position: absolute;
-	padding-top: 20px;
+	
 	padding-bottom: 40px;
 	width: 100%;
 	max-width: 900px;	
-	line-height: 28px;
+	line-height: 29px;
 
 
 }
