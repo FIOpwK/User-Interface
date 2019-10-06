@@ -183,6 +183,7 @@ h1 {
 nav a {
 	color: gray;
 }
+/* pseudo-class*/
 
 a:hover {
 	background-color: greenyellow;
